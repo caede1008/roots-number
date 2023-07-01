@@ -1,0 +1,407 @@
+/*------------------------------------
+全体
+------------------------------------*/
+body{
+    margin: 0px;
+    font-family: 游ゴシック;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.narrow{
+    width:90%;
+}
+
+.section-title{
+    color: #0021CB;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #0021CB;
+    width: 100%;
+}
+
+/*------------------------------------
+main-visual
+------------------------------------*/
+.mainvisual{
+    background-image: url(./img/mainvisual.png);
+    background-size: cover;
+    height: 50vw;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.mainvisual-content{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    padding: 20px 0px 0px 50px;
+}
+
+.mainvisual-title{
+    margin-bottom: 20px;
+}
+
+.mainvisual-text{
+    width:70%;
+    text-align: left;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.mainvisual-topics-slide{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.mainvisual-topics{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    width:60%;
+}
+
+.mainvisual-topic{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    font-size: 1.6rem;
+}
+
+.mainvisual-topic-icon{
+    display: flex;
+    justify-content: center;
+    border-radius:50%;
+    width:10%;
+    height:5vw;
+}
+
+.mainvisual-topic-icon img{
+    border-radius:50%;
+}
+
+.mainvisual-slide{
+    width: 40%;
+    margin: 15px;
+}
+
+.mainvisual-slide img{
+    width: 80%;
+}
+
+.button-contact{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #FFC000;
+    width:30%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-bottom: 40px;
+}
+
+.button-contact:hover{
+    background-color: white;
+    color: #FFC000;
+}
+
+/*------------------------------------
+okomari
+------------------------------------*/
+.okomari-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.okomari-points{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-size: cover;
+    height: 30vw;
+    margin-bottom: 50px;
+}
+
+.okomari-points.nayami{
+    background-image: url(./img/okomari-back.png);
+}
+
+.okomari-point{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:33%;
+}
+
+.okomari-point-text{
+    color: #0021CB;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.solution-title{
+    color: #E4A400;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.okomari-points.kaiketsu{
+    background-image: url(./img/solution-back.png);
+}
+
+.solution-point-text{
+    color: #028810;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+}
+
+/*------------------------------------
+contact
+------------------------------------*/
+.contact{
+    background-image: url("./img/mainvisual.png");
+    background-size:cover;
+    width: 100%;
+    height: 30vw;
+    padding-top:70px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.contact-title{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.contact-mail{
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+    align-items: center;
+}
+.contact-mail-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-mail img{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: 5vw;
+    margin-right: 50px;
+}
+
+.contact-mail-text{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.contact-mail-address{
+    margin-bottom: 0px;
+}
+
+.contact-mail-details{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/*------------------------------------
+kouka
+------------------------------------*/
+.kouka{
+    margin-bottom: 70px;
+}
+
+.section-outline{
+    font-size: 1.7rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kouka img{
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+
+/*------------------------------------
+janru
+------------------------------------*/
+.janru img{
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+
+/*------------------------------------
+slides
+------------------------------------*/
+.slides{
+    margin-top: 70px;
+}
+
+.slides img{
+    width: 85%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*------------------------------------
+reason
+------------------------------------*/
+.reason{
+    margin-top: 70px;
+}
+
+.okomari-points.reason{
+    background-image: url("./img/reason.png");
+}
+
+/*------------------------------------
+plan
+------------------------------------*/
+.plan{
+    margin-top: 70px;
+}
+
+.plan img{
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+
+/*------------------------------------
+nagare
+------------------------------------*/
+.nagare-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nagare-box{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    height: 10vw;
+}
+
+.nagare-title{
+    width: 20%;
+    background-color: #004BA8;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nagare-details{
+    width: 80%;
+    padding: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: #F2F2F2;
+    align-items: center;
+    display: flex;
+}
+
+/*------------------------------------
+question
+------------------------------------*/
+.question{
+    margin-bottom: 70px;
+}
+.question-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.question-box{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+.question-box.answer{
+    background-color: white;
+}
+
+.question-title{
+    width: 10%;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.question-details{
+    width: 70%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+}
+
+/*------------------------------------
+footer
+------------------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 40px 0px;
+    align-items: center;
+}
