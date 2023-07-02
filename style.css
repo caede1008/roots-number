@@ -8,6 +8,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    opacity: 0.9;
 }
 
 a {
@@ -25,6 +26,10 @@ a {
     text-align: center;
     border-bottom: 3px solid #0021CB;
     width: 100%;
+}
+
+.SP-ver{
+    display: none;
 }
 
 /*------------------------------------
@@ -67,6 +72,8 @@ main-visual
     margin-bottom: 40px;
 }
 
+
+
 .mainvisual-topics{
     display: flex;
     justify-content:space-between;
@@ -96,10 +103,24 @@ main-visual
 .mainvisual-slide{
     width: 40%;
     margin: 15px;
+    position: relative;
 }
 
 .mainvisual-slide img{
-    width: 80%;
+    width: 60%;
+    display: block;
+}
+
+.mainvisual-slide1{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.mainvisual-slide2{
+    position: absolute;
+    top: 80px;
+    left: 150px;
 }
 
 .button-contact{
@@ -310,6 +331,10 @@ plan
 /*------------------------------------
 nagare
 ------------------------------------*/
+.nagare{
+    margin-top: 70px;
+}
+
 .nagare-content{
     display: flex;
     justify-content: center;
@@ -383,6 +408,11 @@ question
     padding: 20px;
     align-items: center;
     display: flex;
+    color: #0021CB;
+}
+
+.question-title.answer{
+    color:red;
 }
 
 .question-details{
@@ -405,3 +435,159 @@ footer{
     padding: 40px 0px;
     align-items: center;
 }
+
+/*------------------------------------
+iphone
+------------------------------------*/
+@media screen and (max-width:1200px) {
+
+.PC-ver{
+    display:none;
+}
+
+.SP-ver{
+    display: block;
+}
+
+.mainvisual{
+    height: 70vw;
+}
+
+.mainvisual-title{
+    font-size: 3rem;
+}
+
+.mainvisual-text{
+    width: 90%;
+    font-size: 2.3rem;
+}
+
+.mainvisual-slide{
+    display: none;
+}
+
+.mainvisual-topics{
+    width:100%;
+}
+
+.mainvisual-topic-text{
+    font-size: 2rem;
+}
+
+.button-contact{
+    font-size: 2rem;
+    width:50%;
+}
+
+.okomari-point-text{
+    font-size:1.5rem;
+}
+
+.solution-point-text{
+    font-size:1.5rem; 
+}
+
+.contact{
+    height: 40vw;
+}
+
+.contact-title{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.contact-mail{
+    width: 70%;
+    justify-content: center;
+}
+
+.contact-mail-text{
+    font-size: 2.5rem;
+}
+
+.contact-mail-details{
+    font-size: 1.3rem;
+}
+
+.section-title{
+    font-size: 1.7rem;
+}
+
+.section-title.okomari{ 
+    font-size: 2.5rem;
+}
+
+
+.section-outline{
+    font-size: 0.8rem;
+}
+
+.kouka img {
+    width:100%;
+}
+
+.janru img{
+    width:100%;
+}
+
+.slides img{
+    width:100%;
+}
+
+.plan img{
+    width:100%;
+}
+
+.nagare-box{
+    height: 30vw;
+}
+
+.nagare-title{
+    font-size: 1.8rem;
+}
+
+.nagare-details{
+    font-size: 1.8rem;
+}
+
+.question-content{
+    width:100%;
+}
+
+.question-box{
+    padding: 20px;
+}
+
+.question-title{
+    font-size: 3rem;
+}
+
+.question-details{
+    font-size: 2.2rem;
+}
+
+
+}
+
+/*------------------------------------
+ipad
+------------------------------------*/
+@media screen and (max-width: 700px) {
+.mainvisual{
+    height: 55vw;
+}
+
+.button-contact{
+    font-size: 1.5rem;
+}
+
+.mainvisual-text{
+    width: 70%;
+}
+}
+
+
+
+
+
+
