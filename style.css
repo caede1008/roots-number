@@ -32,6 +32,10 @@ a {
     display: none;
 }
 
+.plan-content.SP-ver{
+    display: none;
+}
+
 /*------------------------------------
 main-visual
 ------------------------------------*/
@@ -284,10 +288,42 @@ kouka
 /*------------------------------------
 janru
 ------------------------------------*/
+.janru{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .janru img{
     width: 85%;
     display: block;
     margin: auto;
+}
+
+.janru-content{
+    background-color: #F2F2F2;
+    width:90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 30vw;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.janru-section{
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    background-color: #004BA8;
+    width: 22%;
+    text-align: center;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
 }
 
 /*------------------------------------
@@ -326,6 +362,113 @@ plan
     width: 85%;
     display: block;
     margin: auto;
+}
+
+.plan-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: 90vw;
+    margin-top: 100px;
+    font-size: 1.3rem;
+    margin: auto;
+}
+
+.plan-box-titles{
+    width:10%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+
+.plan-box{
+    width:27%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.plan-box-title{
+    color: white;
+    background-color:grey;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.space{
+    height: 15vw;
+}
+
+.gaiyou{
+    height: 15vw;
+}
+.koumoku{
+    height: 20vw;
+}
+.limit{
+    height: 8vw;
+}
+
+.schedule{
+    height: 8vw;
+}
+
+.plan-box-content{
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+.plan-box-title.space{
+    background-color: white;
+}
+
+.plan-box-content.plan-box-top.space{
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.plan-name{
+    background-color: black;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.plan-accent{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.plan-box-content.koumoku{
+    justify-content:center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.plan-box-accent{
+    opacity: 0.4;
 }
 
 /*------------------------------------
@@ -526,16 +669,75 @@ iphone
     width:100%;
 }
 
-.janru img{
-    width:100%;
+.section-title.janru{
+    font-size: 2.5rem;
+}
+
+.janru-content{
+    height: 65vw;
+}
+
+.janru-section{
+    width: 45%;
+    font-size: 1.9rem;
+}
+
+.section-outline.janru{
+    font-size: 2.5rem;
 }
 
 .slides img{
     width:100%;
 }
 
-.plan img{
-    width:100%;
+
+.plan-content.SP-ver{
+    display: flex;
+    height: 400vw;
+    width: 100%;
+    flex-direction: column;
+}
+
+.plan-box-title-SP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.plan-box-titles{
+    width:25%;
+    margin-right: 5px;
+}
+
+.plan-box-title{
+    font-size: 2.2rem;
+}
+
+.plan-box{
+    width: 75%;
+    margin: 0px;
+}
+
+.plan-name{
+    font-size: 2.5rem;
+}
+
+.plan-box-content{
+    font-size: 2.2rem;
+}
+
+.space{
+    height: 25vw;
+}
+.gaiyou{
+    height: 25vw;
+}
+
+.plan-note{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
 }
 
 .nagare-box{
@@ -585,9 +787,4 @@ ipad
     width: 70%;
 }
 }
-
-
-
-
-
 
